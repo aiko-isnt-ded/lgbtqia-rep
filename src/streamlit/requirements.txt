@@ -2,5 +2,5 @@ pandas
 matplotlib
 seaborn
 plotly
-sklearn
+scikit-learn
 category_encoders
