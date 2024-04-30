@@ -6,9 +6,12 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 from category_encoders import OrdinalEncoder
 from sklearn.feature_selection import r_regression
+import os
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
-df_streaming = pd.read_excel("data/streaming.xlsx")
+path = os.path.dirname(__file__)
+file = path+'/streaming.xlsx'
+df_streaming = pd.read_excel(file)
 df_streaming = df_streaming.rename(columns={'Unnamed: 0': 'Characters'})
 df_streaming["Characters"] = df_streaming["Characters"].str.replace(" Characters", "")
 
