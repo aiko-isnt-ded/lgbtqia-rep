@@ -1,8 +1,9 @@
-pandas
 numpy
 matplotlib==1.5.1
 seaborn
-plotly
+plotly==5.4.0
+streamlit==1.2.0
+pandas==1.2.3
 scikit-learn
 category_encoders
 plotly
