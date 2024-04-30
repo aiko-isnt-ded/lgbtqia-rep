@@ -13,7 +13,7 @@ df_streaming = df_streaming.rename(columns={'Unnamed: 0': 'Characters'})
 df_streaming["Characters"] = df_streaming["Characters"].str.replace(" Characters", "")
 
 # GLAAD Analysis - Cable
-st.header("LGBTQIA+ Representation in Streaming TV Services :computer:")
+st.header("LGBTQIA+ Representation in Streaming TV Services :movie_camera:")
 st.dataframe(df_streaming)
 
 st.subheader("General Analysis")

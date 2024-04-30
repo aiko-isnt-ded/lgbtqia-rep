@@ -1,10 +1,5 @@
 import streamlit as st
-import pandas as pd
 st.set_option('deprecation.showPyplotGlobalUse', False)
-
-# Dataframes
-df_show_info = pd.read_csv("data/show info.csv")
-df_demographics = df_show_info = pd.read_csv("data/demographics.csv")
 
 # Title of the page
 st.title("LGBTQIA+ Representation in Television :rainbow:")
