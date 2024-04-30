@@ -14,8 +14,8 @@ from sklearn.metrics import davies_bouldin_score
 from sklearn.feature_selection import r_regression
 import plotly.graph_objects as go
 
-show_info = pd.read_csv("data/show info.csv")
-demographics = pd.read_csv("data/demographics.csv")
+show_info = pd.read_csv("/mount/src/lgbtqia-rep/src/streamlit/data/show info.csv")
+demographics = pd.read_csv("/mount/src/lgbtqia-rep/src/streamlit/data/demographics.csv")
 
 st.header("LGBTQIA+ Representation in Animated Shows :desktop_computer:")
 st.subheader('Demographics')
