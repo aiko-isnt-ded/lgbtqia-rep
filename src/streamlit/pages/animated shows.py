@@ -45,7 +45,7 @@ st.write(pd.DataFrame({
     'Type of Representation': ['Implicit', 'Explicit'],
     'Count': [demographics["representation"].value_counts()[0], demographics["representation"].value_counts()[1]],
 }))
-st.write('Amongst the 353 characters, 264 of them are explicit queer representations, while 89 of them are implicit.')
+st.write('Amongst the 353 characters, 264 of them are implicit queer representations, while 89 of them are explicit.')
 
 demographics['confirmation_date'] = pd.to_datetime(demographics['confirmation_date'])
 demographics["year"] = demographics["confirmation_date"].dt.year
