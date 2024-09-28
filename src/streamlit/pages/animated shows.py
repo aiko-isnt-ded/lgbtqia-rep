@@ -13,7 +13,6 @@ from sklearn.metrics import silhouette_score
 from sklearn.metrics import davies_bouldin_score
 from sklearn.feature_selection import r_regression
 import plotly.graph_objects as go
-st.set_option('deprecation.showPyplotGlobalUse', False)
 
 show_info = pd.read_csv("/mount/src/lgbtqia-rep/src/streamlit/data/show info.csv")
 demographics = pd.read_csv("/mount/src/lgbtqia-rep/src/streamlit/data/demographics.csv")

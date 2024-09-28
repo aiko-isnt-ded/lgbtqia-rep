@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 from category_encoders import OrdinalEncoder
 from sklearn.feature_selection import r_regression
-st.set_option('deprecation.showPyplotGlobalUse', False)
+
 
 file = '/mount/src/lgbtqia-rep/src/streamlit/data/streaming.xlsx'
 df_streaming = pd.read_excel(file)

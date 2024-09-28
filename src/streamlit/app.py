@@ -1,5 +1,4 @@
 import streamlit as st
-st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Title of the page
 st.title("LGBTQIA+ Representation in Television :rainbow:")

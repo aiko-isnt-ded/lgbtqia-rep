@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 from category_encoders import OrdinalEncoder
 from sklearn.feature_selection import r_regression
-st.set_option('deprecation.showPyplotGlobalUse', False)
 
 df_cable = pd.read_excel("/mount/src/lgbtqia-rep/src/streamlit/data/cable.xlsx")
 df_cable = df_cable.rename(columns={'Unnamed: 0': 'Characters'})
